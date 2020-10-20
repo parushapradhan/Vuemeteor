@@ -1,60 +1,47 @@
 <template>
-  <v-app>
-    <v-toolbar app>
-
-      <router-link to='/'>
-      <v-toolbar-title class="headline text-uppercase">
-        <span>Bare</span>
-     
-      </v-toolbar-title>
-      </router-link>
-     
-     
-  
-      <v-toolbar-items class="hidden-sm-and-down">
-      <v-row class="align-center">
-         <v-col cols="2"  class="text-right">
-            <router-link to="/about">About   </router-link>
-        </v-col> 
-         <v-col cols="12"  class="text-right">
-           <blaze-template template="loginButtons" tag="span"></blaze-template>
-        </v-col> 
-      </v-row> 
-    
-      </v-toolbar-items>
-    </v-toolbar>
-
-    <v-content>
-      <router-view/>
-    </v-content>
-  </v-app>
- 
-
-</template>
-    <!-- <div class='header'>
-
+   <div class='header'>
+    <router-link to='/'>Home</router-link>
     <router-link to="/about">About</router-link>
     <blaze-template template="loginButtons" tag="span"></blaze-template>
     <div>
       <router-view></router-view>
     </div>
-    </div> -->
+    </div>
+</template>
+ 
 
 
 <script>
     export default {
  
-      data () {
-      return {
-        
-        
-      
-    };
-           }
+          }
 
-    }
+    
 </script>
 
 <style lang="css" scoped>
+ .header {
+   overflow: hidden;
+  background-color: #f1f1f1;
+  padding: 20px 10px;
+  }
+  .header a.logo {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.header a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.header a.active {
+  background-color: dodgerblue;
+  color: white;
+}
+
+.header-right {
+  float: right;
+}
 
 </style>

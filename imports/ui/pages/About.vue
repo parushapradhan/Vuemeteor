@@ -1,5 +1,6 @@
 <template>
 <div>
+  <v-app>
  <section id="about-me">
         <div class="py-12"></div>
 
@@ -18,7 +19,7 @@
           <v-responsive
             class="mx-auto title font-weight-light mb-8"
             max-width="720"
-          >
+           >
            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed placerat consequat enim et sodales. Duis a magna eu quam posuere iaculis. Sed non erat in metus fringilla convallis ut vel ante. Nullam vulputate felis et dui finibus pharetra. Quisque id mollis massa. Mauris ultrices ipsum eleifend, accumsan lacus eu, ultrices quam. Quisque tempor nisl felis, nec interdum purus commodo nec. In luctus in elit commodo imperdiet. Nam vel libero nulla. Duis venenatis eros in urna bibendum, id congue turpis tincidunt. Nam tincidunt dignissim facilisis. Nulla mollis ultricies elit in ultricies.
 
 Nam sagittis dictum leo, at dictum lorem varius a. Quisque sollicitudin, orci at facilisis varius, nisl lorem pulvinar arcu, ac faucibus libero velit a turpis. Suspendisse semper eros dolor, a venenatis dui lobortis vel. Vivamus id enim non massa tempor commodo. Curabitur ut est sagittis ipsum consectetur euismod in id tellus. Vestibulum consectetur libero vel neque condimentum, in semper ex accumsan. Curabitur et molestie lectus. In hac habitasse platea dictumst. Quisque sem mi, viverra vitae tempor vestibulum, venenatis vitae nunc. Quisque eget ullamcorper metus, at vulputate elit. Pellentesque ac erat pellentesque, sollicitudin mi tincidunt, venenatis nisl. Aliquam accumsan, arcu in porta posuere, sapien urna pretium nulla, cursus iaculis lectus leo sit amet nisl. Curabitur accumsan, turpis eget luctus tristique, lacus enim ultrices odio, quis molestie magna massa ut nibh.
@@ -44,9 +45,9 @@ Nam sagittis dictum leo, at dictum lorem varius a. Quisque sollicitudin, orci at
             class="mx-auto mb-12"
             width="56"
           >
-            <v-divider class="mb-1"></v-divider>
+            <v-divider class="mb-1">orem ipsum dolor sit amet, consectetur adipiscing elit. Sed placerat consequat enim et sodales. Duis a mag</v-divider>
 
-            <v-divider></v-divider>
+            <v-divider>orem ipsum dolor sit amet, consectetur adipiscing elit. Sed placerat consequat enim et sodales. Duis a mag</v-divider>
           </v-responsive>
 
           <v-row>
@@ -85,6 +86,7 @@ Nam sagittis dictum leo, at dictum lorem varius a. Quisque sollicitudin, orci at
 
         <div class="py-12"></div>
       </section>
+  </v-app>
 </div>
 
 </template>
