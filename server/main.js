@@ -3,7 +3,6 @@ import '../imports/api/methods';
 import '../imports/api/publications';
 
 Meteor.startup(() => {
-	// process.env.ROOT_URL = 'http://www.doggoappreciation.com';
 	smtp = {
 		username: ' postmaster@sandbox1d60ae47013b48bf891046e247dd0887.mailgun.org',
 		password: 'd3cf3edc384eb665d0e0b6576560c67f-53c13666-44355a7c',

@@ -1,26 +1,25 @@
 <template>
   <div>
-    <router-link to="/">home</router-link>
-    <router-link to="/about">About</router-link>
-    <blaze-template template="loginButtons" tag="span"></blaze-template>
-    <div>
-      <router-view></router-view>
-    </div>
-    
    
-  </div>
+<MainHeader/>
+<MainFooter/>
+
+</div>
 </template>
 
 <script>
 
+import MainHeader from"./layouts/MainHeader"
+import MainFooter from "./layouts/MainFooter"
 export default {
- 
+ components:{
+    MainFooter,
+    MainHeader,
+   
+ }
 }
 </script>
 
 <style>
-  body {
-    font-family: sans-serif;
-    padding: 10px;
-  }
+
 </style>
