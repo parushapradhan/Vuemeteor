@@ -29,7 +29,7 @@
       <v-divider></v-divider>
 
       <v-card-text class="text-center">
-        {{ new Date().getFullYear() }} — <strong>Vuetify</strong>
+        {{ new Date().getFullYear() }} — <strong>@Copyright</strong>
       </v-card-text>
     </v-card>
   </v-footer>

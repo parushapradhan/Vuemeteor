@@ -1,8 +1,11 @@
 <template>
+<div>
    <div class='header'>
-    <router-link to='/'>Home</router-link>
-    <router-link to="/about">About</router-link>
+    <router-link  class='col' class-active="active" to='/'>Home</router-link>
+    <router-link  class='col' class-active="active" to="/about">About Us</router-link>
+    <router-link class='col' class-active="active" to="/contact">Contact Us</router-link>
     <blaze-template template="loginButtons" tag="span"></blaze-template>
+   </div>
     <div>
       <router-view></router-view>
     </div>
@@ -20,28 +23,23 @@
 </script>
 
 <style lang="css" scoped>
- .header {
-   overflow: hidden;
+.header
+{
+   
   background-color: #f1f1f1;
   padding: 20px 10px;
-  }
-  .header a.logo {
-  font-size: 25px;
-  font-weight: bold;
 }
-
-.header a:hover {
-  background-color: #ddd;
+.header a {
   color: black;
-}
 
-.header a.active {
-  background-color: dodgerblue;
-  color: white;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 25px;
+  border-radius: 4px;
 }
-
-.header-right {
-  float: right;
-}
-
+ .router-link-exact-active {
+   background-color: white;
+   cursor: pointer;
+ }
 </style>

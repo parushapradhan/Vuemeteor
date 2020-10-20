@@ -5,7 +5,7 @@ Vue.use(VueRouter);
 
 import About from '../imports/ui/pages/About.vue';
 import Home from '../imports/ui/pages/Home.vue';
-import Signin from '../imports/ui/pages/Login.vue';
+import Contact from '../imports/ui/pages/Contact.vue';
 
 const routes = [
 	{
@@ -19,9 +19,9 @@ const routes = [
 		component: Home,
 	},
 	{
-		path: '/signin',
-		name: 'Signin',
-		component: Signin,
+		path: '/contact',
+		name: 'Contact',
+		component: Contact,
 	},
 ];
 
