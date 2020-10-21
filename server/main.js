@@ -4,10 +4,10 @@ import '../imports/api/publications';
 
 Meteor.startup(() => {
 	smtp = {
-		username: ' postmaster@sandbox1d60ae47013b48bf891046e247dd0887.mailgun.org',
-		password: 'd3cf3edc384eb665d0e0b6576560c67f-53c13666-44355a7c',
-		server: 'smtp.mailgun.org',
-		port: 587,
+		username: Meteor.setting.username,
+		password: Meteor.setting.password,
+		server: Meteor.setting.server,
+		port: Meteor.setting.port,
 	};
 	process.env.MAIL_URL =
 		'smtp://' +
