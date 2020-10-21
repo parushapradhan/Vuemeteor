@@ -3,21 +3,18 @@
 Simple website that uses meteorjs and vue + vuetify for frontend. Uses the meteor account-ui feature for user management
 
 
-
-## Getting Started
-
+### Description
+uses vue-blaze integration package to use accounts-ui on vue template and custom smtp server credentials to send mails.
 
 ### Installing
+*Clone or Fork Repository
+*Go to project directory
 
-* cd Vuemeteor
-* meteor npm install
+```meteor npm install```
 
 ### Executing program
 
-* m
-```cd Vue Meteor
-code blocks for commands
-```meteor npm install
+```meteor```
 
 
 ## Authors
